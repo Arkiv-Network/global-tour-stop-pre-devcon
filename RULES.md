@@ -15,12 +15,12 @@ This repository is the only canonical source of the rules. If any other surface 
 - Participants must be 18 or older at the time of submission.
 - No purchase necessary.
 - Employees of Arkiv / Golem Network and their immediate families are not eligible for prizes.
-- Teams have up to 5 members.
+- Teams have up to 5 members. The roster is frozen when submissions close: members cannot be added or removed afterwards.
 - Multiple submissions are allowed only if they are distinct projects. One prize per individual or team across all entries.
 
 ### Best Indian Team
 
-A team qualifies for Best Indian Team if **at least one member holds Indian nationality**. Teams declare it on the submission form; the Organizer verifies it during KYC.
+A team qualifies for Best Indian Team if **at least one member holds Indian nationality**. Teams declare it on the submission form. If the team wins this prize, that member is the one who completes KYC and receives the prize, which verifies the nationality.
 
 ## 3. Challenge period
 
@@ -62,7 +62,7 @@ Every submission must pass these gates to be scored:
 
 - Plagiarised work or code copied from another participant.
 - No meaningful Arkiv use (the SDK installed but never queried, or a conventional database app with Arkiv branding).
-- Private keys, secrets or personal data stored in Arkiv.
+- Private keys or secrets stored in Arkiv, or real personal data stored in plaintext or hashed form (hashes of emails or phone numbers can be reversed). Use synthetic data; encrypted payloads of test data are fine.
 - Malicious code or intentionally introduced vulnerabilities.
 - No working app, or submitted after the deadline.
 
@@ -80,11 +80,13 @@ Every submission must pass these gates to be scored:
 
 ### Prize conditions
 
-- **Attending Devcon is required.** Each winning team demos its project at the Arkiv booth at Devcon 8 (Mumbai, 3–4 November 2026). The USDC prize is paid **after the demo**.
+- **Attending Devcon is required.** At least one member of each winning team demos the project at the Arkiv booth at Devcon 8 (Mumbai, 3–4 November 2026). The USDC prize is paid **after the demo**, within 14 days.
+- **Travel time is short.** Winners are announced 11 days before the booth demos. If you need a visa for India, check the requirements before you enter; the Organizer can provide an invitation letter on request.
 - **One ticket per winning team.** Travel, visa and accommodation are the winner's responsibility.
-- **One prize per team.** If the Best Indian Team also tops its pillar, it receives the Best Indian Team prize and the pillar prize goes to the next-ranked team in that pillar.
-- **Currency:** USDC, sent to the EVM wallet address confirmed during KYC.
-- **KYC is required to claim a prize, not to enter.**
+- **One prize per team and per individual.** Prizes are allocated in this order: Best Indian Team first, then each pillar. A team (or a person already in a winning team) that has won is skipped, and the prize goes to the next-ranked eligible team.
+- **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team, no valid entry in a pillar, or nobody left who can attend), it goes to the next-highest-ranked project overall that has not won and can attend.
+- **Currency:** USDC, sent to the EVM wallet address of the team member who completes KYC.
+- **KYC is required to claim a prize, not to enter.** Only the team member who receives the prize completes it.
 - Prizes are non-transferable, except as described in Section 6.
 - Taxes are the winner's sole responsibility. The Organizer does not withhold taxes or give tax advice.
 
@@ -92,20 +94,22 @@ Every submission must pass these gates to be scored:
 
 1. Winners are notified by email and Telegram on 23 October.
 2. Each winning team confirms by replying to the notification email within **48 hours** of it being sent that it will attend Devcon and demo at the booth. A replacement winner gets its own 48-hour window from its own notification.
-3. If a team does not confirm, declines, or cannot complete KYC, the prize passes to the next-ranked eligible team:
+3. If a team does not confirm, declines, or its prize recipient cannot complete KYC, the prize passes to the next-ranked eligible team:
    - a pillar prize goes to the next team in that pillar;
-   - Best Indian Team goes to the next-ranked team with at least one member of Indian nationality.
-4. If a winning team confirms but does not demo at Devcon, the USDC prize is not paid.
+   - Best Indian Team goes to the next-ranked team with at least one member of Indian nationality;
+   - if no eligible team remains, Section 5 (minimum score) applies.
+4. Replacements are offered until 28 October 2026. After that, a prize that is declined stays unawarded.
+5. If a winning team confirms but does not demo at Devcon, the USDC prize is not paid.
 
 ## 7. KYC and disbursement
 
-All members of a winning team complete KYC individually before Devcon:
+One member of each winning team, the prize recipient, completes KYC before Devcon. For Best Indian Team, the recipient is the member of Indian nationality.
 
 1. **Government-issued ID** (passport preferred; national ID both sides).
 2. **Signed declaration form**, provided by the Organizer, signed by hand.
 3. **Selfie holding the ID**, with face and ID readable.
 
-All members confirm the same EVM wallet address. KYC documents go to the Organizer's compliance office, are retained per its compliance requirements, and are not shared with third parties except as required by law. KYC also verifies nationality for Best Indian Team.
+The recipient confirms the EVM wallet address for the payout. KYC documents go to the Organizer's compliance office, are retained per its compliance requirements, and are not shared with third parties except as required by law.
 
 ## 8. Judging
 

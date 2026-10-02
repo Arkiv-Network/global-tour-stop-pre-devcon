@@ -20,8 +20,8 @@ Ten days, fully online, open to builders everywhere. Five winners get a Devcon 8
 | **Security** | Devcon 8 ticket + **$750 USDC** | Best registry or alert feed where every record's author is verifiable on chain |
 
 - **One prize per team.** If the Best Indian Team also tops a pillar, it takes the $2,000 and the pillar prize goes to the next team in that pillar.
-- **Attending Devcon is required to receive a prize.** Winners demo at the Arkiv booth on 3–4 November, and prizes are paid after the demo.
-- Every winner completes KYC. Details in [RULES.md](RULES.md).
+- **Attending Devcon is required to receive a prize.** At least one team member demos at the Arkiv booth on 3–4 November, and prizes are paid after the demo.
+- The team member who receives the prize completes KYC. Details in [RULES.md](RULES.md).
 
 ## Dates
 

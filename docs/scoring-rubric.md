@@ -6,7 +6,7 @@ Every submission is judged by the Arkiv team in two steps: **gates**, then **sco
 
 A submission that fails any gate is not scored.
 
-- [ ] **It works.** A public deployment judges can open without asking for access.
+- [ ] **It works.** A public deployment judges can open without asking for access. This applies to every pillar: a library, CLI or dataset ships with a deployed app or product that shows how it is used and the value it adds.
 - [ ] **It can be reproduced.** The steps and the exact query in the submission produce what the submission says.
 - [ ] **Public repo under the MIT licence.**
 - [ ] **`/arkiv/schema.md`** in the repo: entity types, attributes, expiration per type, the queries the app runs.
@@ -84,8 +84,11 @@ The solution side. What breaks on a database an operator controls, on IPFS, a su
 ## 3. Ranking and prizes
 
 - Each project's total is the average of the judges' totals, unrounded.
+- **Minimum score:** 50/100 to win.
+- **Allocation order:** Best Indian Team first, then each pillar. One prize per team and per individual; a winner is skipped and the prize goes to the next eligible team.
 - **Pillar prizes:** the top-ranked project in each pillar.
 - **Best Indian Team:** the top-ranked project overall from a team with at least one member of Indian nationality. If it also tops its pillar, it takes the $2,000 and the pillar prize goes to the next team in that pillar.
+- **No eligible project for a prize:** it goes to the next-highest-ranked project overall that has not won.
 - **Ties:** higher "Why Arkiv?" wins, then higher "How you use Arkiv", then the earlier submission timestamp.
 - Judges with a personal or professional connection to a team disclose it and recuse themselves from that entry.
 - Judges' decisions are final.
