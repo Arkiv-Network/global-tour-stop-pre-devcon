@@ -12,7 +12,7 @@ You submit on Devfolio. Besides the usual project fields, the form asks for the 
 
 - Telegram handle (we use it to reach you during the challenge)
 - Country of residence (statistics only, it does not affect eligibility)
-- Does any team member hold Indian nationality? (decides eligibility for Best Indian Team; if you win it, that member completes KYC and receives the prize)
+- Does any team member hold Indian nationality? (to compete for Best Indian Team you need at least one; KYC for that prize is done with this person)
 - Builder communities you are part of
 - Background (Web2, Web3, both) and whether you had used Arkiv before
 - How you heard about the challenge
@@ -21,7 +21,7 @@ You submit on Devfolio. Besides the usual project fields, the form asks for the 
 
 - **Devcon attendance (required to receive a prize):** if you win, will at least one team member attend Devcon 8 in Mumbai and demo at the Arkiv booth on 3–4 November? Prizes are paid only after the demo. If a winner cannot attend, the prize passes to the next-ranked team that can.
 - **USDC payout wallet:** an EVM address. It can differ from the wallets your app uses.
-- Acknowledgement that the team member who receives the prize completes KYC before payout.
+- Acknowledgement that winners complete KYC before payout.
 
 ## Your project
 

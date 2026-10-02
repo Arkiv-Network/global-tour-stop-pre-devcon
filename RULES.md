@@ -20,7 +20,7 @@ This repository is the only canonical source of the rules. If any other surface 
 
 ### Best Indian Team
 
-A team qualifies for Best Indian Team if **at least one member holds Indian nationality**. Teams declare it on the submission form. If the team wins this prize, that member is the one who completes KYC and receives the prize, which verifies the nationality.
+To compete for Best Indian Team, your team must include **at least one person of Indian nationality**. Teams declare it on the submission form, and KYC for this prize is done with that person.
 
 ## 3. Challenge period
 
@@ -85,8 +85,8 @@ Every submission must pass these gates to be scored:
 - **One ticket per winning team.** Travel, visa and accommodation are the winner's responsibility.
 - **One prize per team and per individual.** Prizes are allocated in this order: Best Indian Team first, then each pillar. A team (or a person already in a winning team) that has won is skipped, and the prize goes to the next-ranked eligible team.
 - **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team, no valid entry in a pillar, or nobody left who can attend), it goes to the next-highest-ranked project overall that has not won and can attend.
-- **Currency:** USDC, sent to the EVM wallet address of the team member who completes KYC.
-- **KYC is required to claim a prize, not to enter.** Only the team member who receives the prize completes it.
+- **Currency:** USDC, sent to an EVM wallet address.
+- **KYC is required to claim a prize, not to enter.**
 - Prizes are non-transferable, except as described in Section 6.
 - Taxes are the winner's sole responsibility. The Organizer does not withhold taxes or give tax advice.
 
@@ -94,22 +94,16 @@ Every submission must pass these gates to be scored:
 
 1. Winners are notified by email and Telegram on 23 October.
 2. Each winning team confirms by replying to the notification email within **48 hours** of it being sent that it will attend Devcon and demo at the booth. A replacement winner gets its own 48-hour window from its own notification.
-3. If a team does not confirm, declines, or its prize recipient cannot complete KYC, the prize passes to the next-ranked eligible team:
+3. If a team does not confirm, declines, or cannot complete KYC, the prize passes to the next-ranked eligible team:
    - a pillar prize goes to the next team in that pillar;
    - Best Indian Team goes to the next-ranked team with at least one member of Indian nationality;
    - if no eligible team remains, Section 5 (minimum score) applies.
 4. Replacements are offered until 28 October 2026. After that, a prize that is declined stays unawarded.
 5. If a winning team confirms but does not demo at Devcon, the USDC prize is not paid.
 
-## 7. KYC and disbursement
+## 7. KYC
 
-One member of each winning team, the prize recipient, completes KYC before Devcon. For Best Indian Team, the recipient is the member of Indian nationality.
-
-1. **Government-issued ID** (passport preferred; national ID both sides).
-2. **Signed declaration form**, provided by the Organizer, signed by hand.
-3. **Selfie holding the ID**, with face and ID readable.
-
-The recipient confirms the EVM wallet address for the payout. KYC documents go to the Organizer's compliance office, are retained per its compliance requirements, and are not shared with third parties except as required by law.
+Winners complete KYC before Devcon. The Organizer shares the process with each winning team after the announcement. For Best Indian Team, KYC is done with the team member of Indian nationality.
 
 ## 8. Judging
 
