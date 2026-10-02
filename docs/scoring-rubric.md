@@ -13,7 +13,8 @@ A submission that fails any gate is not scored.
 - [ ] **On-chain evidence on Tiramisu:** entity keys and creation transaction hashes (or explorer links).
 - [ ] **`/arkiv/friction.md`** in the repo.
 - [ ] **Demo video**, 3 minutes or less.
-- [ ] **Built between 9 and 18 October 2026.** Pre-existing code is disclosed; the Arkiv integration and the core logic are new.
+- [ ] **Built between 9 and 18 October 2026.** The Arkiv integration and the core logic are new. Pre-existing work is disclosed with the baseline commit SHA and a list of reused components.
+- [ ] **Evidence that survives expiry.** If entities expire before judging, the creation transaction hashes and the demo video are the evidence; judges check them on the explorer.
 
 **Not eligible:** the SDK installed but never queried · a Postgres app with an Arkiv logo · private keys, secrets or personal data stored in Arkiv.
 
@@ -51,7 +52,7 @@ The solution side. What breaks on a database an operator controls, on IPFS, a su
 
 | 1 | 3 | 5 |
 |---|---|---|
-| "It's on-chain" is the whole argument | Names at least one property the project loses without Arkiv | Without queryable, expiring, verifiable entities the project falls apart, and it says what deliberately stays off Arkiv |
+| "It's on-chain" is the whole argument | Names at least one property the project loses without Arkiv | The project falls apart without the Arkiv property it relies on, and it says what deliberately stays off Arkiv |
 
 ### How you use Arkiv · 25
 
@@ -70,7 +71,7 @@ The solution side. What breaks on a database an operator controls, on IPFS, a su
 
 | 1 | 3 | 5 |
 |---|---|---|
-| One blob in the payload, reads by key, the same expiry on everything | Two or three features used well and tied to the product | Every feature used changes something the user sees, and the team explains why it chose it |
+| A blob in the payload read by key, or features added for show | The features used are correct and tied to the product | Every feature used changes something the user sees, and the team explains why it chose it. One feature used this way can score 5 |
 
 ### Friction report · 25
 
@@ -78,13 +79,13 @@ The solution side. What breaks on a database an operator controls, on IPFS, a su
 
 | 1 | 3 | 5 |
 |---|---|---|
-| Praise, or "everything was great" | Real issues, each with the surface involved | Each issue has expected vs actual, versions and steps to reproduce, and points at what would fix it |
+| Praise, or "everything was great" | Real issues, or tested paths that worked, each with the surface involved | Each issue has expected vs actual, versions and steps to reproduce, and points at what would fix it. A smooth integration documented with the same rigour (what you tested, what you expected, what happened) scores the same. Invented complaints score 0 |
 
 ## 3. Ranking and prizes
 
 - Each project's total is the average of the judges' totals, unrounded.
 - **Pillar prizes:** the top-ranked project in each pillar.
 - **Best Indian Team:** the top-ranked project overall from a team with at least one member of Indian nationality. If it also tops its pillar, it takes the $2,000 and the pillar prize goes to the next team in that pillar.
-- **Ties:** higher "Why Arkiv?" wins, then higher "How you use Arkiv"; if still tied, the panel decides by consensus.
+- **Ties:** higher "Why Arkiv?" wins, then higher "How you use Arkiv", then the earlier submission timestamp.
 - Judges with a personal or professional connection to a team disclose it and recuse themselves from that entry.
 - Judges' decisions are final.

@@ -40,6 +40,7 @@ Never include private keys, seed phrases, access keys or RPC URLs with credentia
 - Entity keys and creation transaction hashes, or explorer links
 - Link to `/arkiv/schema.md`
 - How judges reproduce your Arkiv usage: steps and the exact query to run
+- Pre-existing work, if any: the baseline commit SHA and the components you reused
 
 ## Your feedback
 
@@ -54,6 +55,6 @@ Never include private keys, seed phrases, access keys or RPC URLs with credentia
 - This is our team's work, built between 9 and 18 October; pre-existing or third-party work is disclosed.
 - The repo is public under the MIT licence and every link is accessible to judges.
 - We consent to Arkiv and Devfolio using our contact details for this challenge.
-- We agree to be listed in the public showcase (project name, one-liner, pillar).
+- Optional: list us in the public showcase (project name, one-liner, pillar). Declining does not affect judging.
 
-We judge the last commit before the deadline, not later ones. You can edit your Devfolio submission until it closes.
+At the deadline we record your repo's commit SHA, and that is what we judge. A force-push that rewrites history after the deadline disqualifies the entry. Keep your deployment up until winners are announced on 23 October. You can edit your Devfolio submission until it closes.

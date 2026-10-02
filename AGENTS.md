@@ -36,7 +36,7 @@ Do not reinvent these; check the installed package when unsure.
 
 ## Vocabulary
 
-Say "Entity Expiration" and "Lifetime Extension". Never write "TTL". Avoid "trustless" and "fully decentralized".
+Call the expiry primitive "Entity Expiration" and its renewal "Lifetime Extension". Describe Arkiv as "the Web3 database".
 
 ## What to ask the builder before coding
 

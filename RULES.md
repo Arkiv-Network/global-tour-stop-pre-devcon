@@ -1,7 +1,7 @@
 # Official Rules & Terms
 
 > [!NOTE]
-> **Draft.** Frozen when the challenge opens on 9 October 2026. After that, only clarifications are added, and each one is dated.
+> **Draft.** Frozen when the challenge opens on 9 October 2026. After that, only dated clarifications are added. Weights, gates, eligibility and prizes do not change after the opening.
 
 ## 1. Overview
 
@@ -27,13 +27,13 @@ A team qualifies for Best Indian Team if **at least one member holds Indian nati
 | Date | |
 |---|---|
 | 9 October 2026 | Opening, live at Network School Astana; submissions open |
-| 18 October 2026, 23:59 IST | Submissions close |
+| 18 October 2026, 23:59 IST (18:29 UTC) | Submissions close |
 | 19–22 October 2026 | Judging |
 | 23 October 2026 | Winners announced |
 | 25 October 2026 | Deadline for winners to confirm Devcon attendance |
 | 3–4 November 2026 | Winner demos at the Arkiv booth, Devcon 8, Mumbai |
 
-Late submissions are not accepted. We judge the last commit before the deadline. The Organizer may adjust these dates; changes are announced on Devfolio and the Arkiv Discord.
+Late submissions are not accepted. At the deadline we record each repo's commit SHA and judge that commit; rewriting history after the deadline disqualifies the entry. Deployments stay up until 23 October. The Organizer may adjust these dates; changes are announced on Devfolio and the Arkiv Discord.
 
 ## 4. Submission requirements
 
@@ -55,7 +55,7 @@ Every submission must pass these gates to be scored:
 ### Valid submissions
 
 - Use Arkiv as the primary data layer, through the official SDK (`@arkiv-network/sdk` 0.8.x) or direct RPC.
-- Original work created between 9 and 18 October 2026. Libraries, frameworks and boilerplate are allowed; the Arkiv integration and the core logic must be new. Pre-existing work is disclosed in the submission.
+- Original work created between 9 and 18 October 2026. Libraries, frameworks and boilerplate are allowed; the Arkiv integration and the core logic must be new. Pre-existing work is disclosed in the submission with its baseline commit SHA and the components reused.
 - AI coding assistants are allowed.
 
 ### Disqualified submissions
@@ -91,7 +91,7 @@ Every submission must pass these gates to be scored:
 ## 6. Confirmation and runner-up policy
 
 1. Winners are notified by email and Telegram on 23 October.
-2. Each winning team confirms within **48 hours** that it will attend Devcon and demo at the booth.
+2. Each winning team confirms by replying to the notification email within **48 hours** of it being sent that it will attend Devcon and demo at the booth. A replacement winner gets its own 48-hour window from its own notification.
 3. If a team does not confirm, declines, or cannot complete KYC, the prize passes to the next-ranked eligible team:
    - a pillar prize goes to the next team in that pillar;
    - Best Indian Team goes to the next-ranked team with at least one member of Indian nationality.
@@ -115,7 +115,7 @@ The Arkiv team judges every submission against the published [scoring rubric](do
 
 - Participants keep full ownership of their submissions, which must be published under the MIT licence.
 - By entering, participants grant the Organizer a non-exclusive, royalty-free, worldwide licence to showcase the submission, reference it as an example of Arkiv usage, and fork the repository for educational purposes.
-- Participants who consent on the form are listed in the public showcase (project name, one-liner, pillar).
+- The public showcase (project name, one-liner, pillar) lists only teams that opt in on the form. Declining does not affect judging.
 
 ## 10. Code of conduct
 
@@ -125,7 +125,7 @@ Treat everyone with respect. No harassment, discrimination, sabotage of other te
 
 - The Organizer is not responsible for technical failures, network issues or testnet downtime.
 - The Organizer is not responsible for travel, visas, accommodation or any cost beyond the stated prizes.
-- The Organizer may modify these rules, extend deadlines or cancel the Challenge if circumstances require; changes are announced on Devfolio and the Arkiv Discord.
+- The Organizer may extend deadlines or cancel the Challenge if circumstances require, and may add dated clarifications. Changes never apply retroactively against a team, and are announced on Devfolio and the Arkiv Discord.
 - The Organizer's total liability is limited to the stated prizes.
 
 ## 12. Privacy
