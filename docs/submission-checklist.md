@@ -39,10 +39,10 @@ Then our questions. Your answers are private: only the Arkiv team and judges see
 **Judging answers** (each scored criterion is 25% of the total)
 
 3. Which pillars are you entering? * The same pillars you picked as tracks.
-4. Why this pillar? (25%) * Write a short, labelled answer for each pillar you entered. Who is harmed today if this data is censored, shut down, leaked or forged?
-5. Why Arkiv? (25%) * Why not Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
-6. How do you use Arkiv? (25%) * For each feature you use, say how and why, and link to the relevant code.
-7. Friction report: link to `/arkiv/friction.md` (GitHub URL) (25%) *
+4. Why this pillar? (25%) * Who is harmed today if this data is censored, shut down, leaked or forged? Answer for each pillar you entered.
+5. Why Arkiv? (25%) * What would break on Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
+6. How do you use Arkiv? (25%) * For each Arkiv feature you use: how, why, and a link to the code.
+7. Friction report: link to `/arkiv/friction.md` (GitHub URL) (25%) * What you expected, what happened, versions and steps to reproduce.
 
 **Verification on Tiramisu**
 
