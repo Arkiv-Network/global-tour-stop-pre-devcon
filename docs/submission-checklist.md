@@ -36,23 +36,23 @@ Then our questions. Your answers are private: only the Arkiv team and judges see
 1. Live app URL *
 2. Does any team member hold Indian nationality? *
 
-**Judging answers**
+**Judging answers** (each scored criterion is 25% of the total)
 
 3. Which pillars are you entering? * The same pillars you picked as tracks.
-4. Why this pillar? * Write a short, labelled answer for each pillar you entered. Who is harmed today if this data is censored, shut down, leaked or forged?
-5. Why Arkiv? * Why not Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
-6. How do you use Arkiv? * For each feature you use, say how and why, and link to the relevant code.
+4. Why this pillar? (25%) * Write a short, labelled answer for each pillar you entered. Who is harmed today if this data is censored, shut down, leaked or forged?
+5. Why Arkiv? (25%) * Why not Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
+6. How do you use Arkiv? (25%) * For each feature you use, say how and why, and link to the relevant code.
+7. Friction report: link to `/arkiv/friction.md` (GitHub URL) (25%) *
 
 **Verification on Tiramisu**
 
-7. Wallet addresses that create your Arkiv entities, and the role of each * Judges find your entities and their creation transactions from these addresses.
-8. Link to `/arkiv/schema.md` (GitHub URL) *
-9. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
-10. Pre-existing work you reused (or None) * Anything made before the challenge, such as an earlier hackathon project, a fork or a template, with its baseline commit SHA.
+8. Wallet addresses that create your Arkiv entities, and the role of each * Judges find your entities and their creation transactions from these addresses.
+9. Link to `/arkiv/schema.md` (GitHub URL) *
+10. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
+11. Pre-existing work you reused (or None) * Anything made before the challenge, such as an earlier hackathon project, a fork or a template, with its baseline commit SHA.
 
 **Feedback**
 
-11. Link to `/arkiv/friction.md` (GitHub URL) *
 12. Arkiv surfaces you used * (TypeScript SDK, direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Arkiv Plugin, Other)
 13. If you selected Other, name it
 14. How long after you started did you write your first Arkiv entity? * (2h or less, 2h to 24h, 1+ day)
