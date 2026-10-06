@@ -24,10 +24,13 @@ A real-world application built on Arkiv that people in India can use. It does no
 
 ## 3. Challenge period
 
+All times are London time (BST, UTC+1).
+
 | Date | |
 |---|---|
-| 9 October 2026 | Opening, live at Network School Astana; submissions open |
-| 18 October 2026, 23:59 IST (18:29 UTC) | Submissions close |
+| 7 October 2026 | Registration opens on Devfolio |
+| 9 October 2026, 12:00 | Opening, live at Network School Astana; submissions open |
+| 18 October 2026, 23:59 (22:59 UTC) | Submissions and registration close |
 | 19 to 22 October 2026 | Judging |
 | 23 October 2026 | Winners announced |
 | 25 October 2026 | Deadline for winners to accept their prize |
