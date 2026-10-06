@@ -29,12 +29,12 @@ Devfolio asks for your name, email and GitHub, plus:
 
 The standard fields: project name, tagline, description, technologies, your repo, a demo video of 3 minutes or less, and **tracks**: pick every CROPS pillar you compete in (Censorship Resistance, Open Source, Privacy, Security).
 
-Then our questions. Answers marked Private are hidden from the public project page; only the Arkiv team and judges see them. Files in your public repo, including `/arkiv/friction.md`, stay public.
+Then our questions. Your answers are private: only the Arkiv team and judges see them. Files in your repo, including `/arkiv/schema.md` and `/arkiv/friction.md`, are public.
 
 **Project**
 
 1. Live app URL *
-2. Does any team member hold Indian nationality? * (Private)
+2. Does any team member hold Indian nationality? *
 
 **Judging answers**
 
@@ -45,27 +45,26 @@ Then our questions. Answers marked Private are hidden from the public project pa
 
 **Verification on Tiramisu**
 
-7. Wallet addresses that create your Arkiv entities, and the role of each *
-8. Entity keys and creation transaction hashes, or explorer links *
-9. Link to `/arkiv/schema.md` *
-10. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
-11. Pre-existing work * Anything made before the challenge that you reused, such as an earlier hackathon project, a fork or a template. Give the baseline commit SHA and what you reused, or write None.
+7. Wallet addresses that create your Arkiv entities, and the role of each * Judges find your entities and their creation transactions from these addresses.
+8. Link to `/arkiv/schema.md` (GitHub URL) *
+9. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
+10. Pre-existing work you reused (or None) * Anything made before the challenge, such as an earlier hackathon project, a fork or a template, with its baseline commit SHA.
 
-**Feedback** (form answers are Private)
+**Feedback**
 
-12. Link to `/arkiv/friction.md` *
-13. Arkiv surfaces you used * (TypeScript SDK, direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Other)
-14. If you selected Other, name it. Otherwise leave blank.
-15. How long after you started did you write your first Arkiv entity? *
-16. Which LLMs did you use? Write None if you did not use any. *
-17. What is the one thing we should improve first? *
-18. Are you open to a 20-minute feedback call with the Arkiv team? *
+11. Link to `/arkiv/friction.md` (GitHub URL) *
+12. Arkiv surfaces you used * (TypeScript SDK, direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Arkiv Plugin, Other)
+13. If you selected Other, name it
+14. How long after you started did you write your first Arkiv entity? * (2h or less, 2h to 24h, 1+ day)
+15. Which LLMs did you use? (or None) *
+16. What is the one thing we should improve first? *
+17. Open to a 20-minute feedback call with the Arkiv team? *
 
-**Confirmations** (Private)
+**Confirmations**
 
-19. This is our team's work, built between 9 and 18 October. Any pre-existing or third-party work is disclosed. *
-20. Our repo is public under the MIT licence and every link is accessible to judges. *
-21. Optional: we plan to attend Devcon 8 in Mumbai and can showcase the project at the Arkiv booth. Not required to win.
+18. This is our team's work, built between 9 and 18 October. Any pre-existing or third-party work is disclosed. *
+19. Our repo is public under the MIT licence and every link is accessible to judges. *
+20. We plan to attend Devcon 8 in Mumbai (optional, not required to win)
 
 Never paste private keys, seed phrases, access key secrets or RPC URLs with credentials into any answer.
 

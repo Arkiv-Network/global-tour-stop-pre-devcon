@@ -47,7 +47,7 @@ Every submission must pass these gates to be scored:
 | Reproducible | Steps and the exact query that produce what the submission claims |
 | Public repo | MIT licence, setup instructions in the README |
 | `/arkiv/schema.md` | Entity types, attributes, expiration per type, queries |
-| On-chain evidence | Arkiv entity keys and creation transaction hashes on Tiramisu, or explorer links to them |
+| On-chain evidence | The wallet addresses that create your Arkiv entities on Tiramisu |
 | `/arkiv/friction.md` | Feedback on building with Arkiv |
 | Demo video | 3 minutes or less |
 | One or more CROPS pillars | Censorship Resistance, Open Source, Privacy, Security. Chosen as tracks on Devfolio |

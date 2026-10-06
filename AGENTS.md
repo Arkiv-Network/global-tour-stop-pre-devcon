@@ -16,7 +16,7 @@ The official rules and resources for a 10-day online build on Arkiv, the Web3 da
 ## Key facts
 
 - One or more CROPS pillars per project (tracks on Devfolio); one prize per team. Same rubric for all: Why this pillar? 25 (scored per pillar entered) · Why Arkiv? 25 · How you use Arkiv 25 · Friction report 25.
-- Gates before scoring: working deployment, reproducible, public MIT repo, `/arkiv/schema.md`, `/arkiv/friction.md`, at least one CROPS pillar as a Devfolio track, every required question on the Devfolio project form, Arkiv entity keys + creation tx hashes on Tiramisu, demo video ≤ 3 min, built 9 to 18 October.
+- Gates before scoring: working deployment, reproducible, public MIT repo, `/arkiv/schema.md`, `/arkiv/friction.md`, at least one CROPS pillar as a Devfolio track, every required question on the Devfolio project form, the wallet addresses that create your Arkiv entities on Tiramisu, demo video ≤ 3 min, built 9 to 18 October.
 - Attending Devcon is not required to win. Winners get a Devcon 8 ticket; USDC is paid after KYC.
 - Network: Tiramisu testnet, chain ID `7738577`, RPC `https://rpc.tiramisu.db-chain.testnet.arkiv.network`, WebSocket `wss://rpc.tiramisu.db-chain.testnet.arkiv.network`.
 - SDK: `@arkiv-network/sdk` 0.8.x. Docs: https://docs.arkiv.network

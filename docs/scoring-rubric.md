@@ -10,7 +10,7 @@ A submission that fails any gate is not scored.
 - [ ] **It can be reproduced.** The steps and the exact query in the submission produce what the submission says.
 - [ ] **Public repo under the MIT licence.**
 - [ ] **`/arkiv/schema.md`** in the repo: entity types, attributes, expiration per type, the queries the app runs.
-- [ ] **On-chain evidence on Tiramisu:** Arkiv entity keys and creation transaction hashes (or explorer links).
+- [ ] **On-chain evidence on Tiramisu:** the wallet addresses that create the project's Arkiv entities. Judges find the entities and their creation transactions from them.
 - [ ] **`/arkiv/friction.md`** in the repo.
 - [ ] **Demo video**, 3 minutes or less.
 - [ ] **Every required question** on the Devfolio project form answered (see the [checklist](submission-checklist.md)).
