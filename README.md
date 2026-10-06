@@ -9,15 +9,17 @@ Build on [Arkiv](https://arkiv.network), the Web3 database, around one theme: **
 
 Ten days, fully online, open to builders everywhere. Five winners get a Devcon 8 ticket and USDC.
 
+Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a devtool, a CLI, an indexer, a dataset, an agent or a browser extension.
+
 ## Prizes
 
-| Prize | Reward | Who wins it |
-|---|---|---|
-| **Best CROPS (India)** | Devcon 8 ticket + **$2,000 USDC** | Same theme and rubric as the Global prizes. The highest-scoring project overall from a team with at least one member of Indian nationality |
-| **Censorship Resistance (Global)** | Devcon 8 ticket + **$750 USDC** | Best app that keeps data the ecosystem depends on readable and queryable without a single point of takedown |
-| **Open Source (Global)** | Devcon 8 ticket + **$750 USDC** | Best open, queryable dataset or tool another team could build on without permission |
-| **Privacy (Global)** | Devcon 8 ticket + **$750 USDC** | Best app built on data minimisation: minimal attributes, encrypted or hashed payloads, user-set expiry |
-| **Security (Global)** | Devcon 8 ticket + **$750 USDC** | Best registry or alert feed where the creator of each Arkiv entity is verifiable on chain |
+| Prize | Reward |
+|---|---|
+| **Best CROPS (India)** | Devcon 8 ticket + **$2,000 USDC**. For teams with at least one member of Indian nationality |
+| **Censorship Resistance (Global)** | Devcon 8 ticket + **$750 USDC** |
+| **Open Source (Global)** | Devcon 8 ticket + **$750 USDC** |
+| **Privacy (Global)** | Devcon 8 ticket + **$750 USDC** |
+| **Security (Global)** | Devcon 8 ticket + **$750 USDC** |
 
 - **One prize per team.** You can compete in more than one pillar, but your team wins at most one prize. If you win Best CROPS (India), you cannot also win a Global prize. If you win one Global prize, you cannot win another.
 - **Attending Devcon is not required to win.** Each winning team gets one ticket to use if it wants to attend.
