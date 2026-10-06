@@ -7,9 +7,9 @@
 
 Build on [Arkiv](https://arkiv.network), the Web3 database, around one theme: **CROPS**, the Ethereum Foundation's mandate that Ethereum stay **c**ensorship resistant, **o**pen source, **p**rivate and **s**ecure.
 
-Ten days, fully online, open to builders everywhere. Five winners get a Devcon 8 ticket and USDC.
+Ten days, fully online, open to builders everywhere. Five winners get a Devcon 8 ticket on top of their prize.
 
-Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a devtool, a CLI, an indexer, a dataset, an agent or a browser extension. Four CROPS tracks are open to everyone, and the Best Indian Use Case track rewards a real-world application that people in India can use.
+Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a devtool, a CLI, an indexer, a dataset, an agent, a browser extension or more. Four CROPS tracks are open to everyone, and the Best Indian Use Case track rewards a real-world application that people in India can use.
 
 ## Prizes
 
