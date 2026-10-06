@@ -18,9 +18,9 @@ This repository is the only canonical source of the rules. If any other surface 
 - Teams have up to 5 members. The roster is frozen when submissions close: members cannot be added or removed afterwards.
 - Multiple submissions are allowed only if they are distinct projects. A team wins at most one prize across all its entries.
 
-### Best CROPS (India)
+### Best Indian Use Case
 
-Same theme and rubric as the Global prizes. Open worldwide otherwise. To compete for it, your team must include **at least one person of Indian nationality**. Teams declare it when they register and again in the Devfolio submission form, and KYC for this prize is done with that person.
+A real-world application built on Arkiv that people in India can use. It does not need to follow a CROPS pillar. To compete, choose the Best Indian Use Case track. Your team must include **at least one person of Indian nationality**. Teams declare it when they register and again in the Devfolio submission form, and KYC for this prize is done with that person.
 
 ## 3. Challenge period
 
@@ -50,7 +50,7 @@ Every submission must pass these gates to be scored:
 | On-chain evidence | The wallet addresses that create your Arkiv entities on Tiramisu |
 | `/arkiv/friction.md` | Feedback on building with Arkiv |
 | Demo video | 3 minutes or less |
-| One or more CROPS pillars | Censorship Resistance, Open Source, Privacy, Security. Chosen as tracks on Devfolio |
+| One or more tracks | A CROPS pillar (Censorship Resistance, Open Source, Privacy, Security) or Best Indian Use Case, chosen on Devfolio |
 | Submission questions | Every required question on the Devfolio project form answered (listed in the [checklist](docs/submission-checklist.md)) |
 
 ### Valid submissions
@@ -71,7 +71,7 @@ Every submission must pass these gates to be scored:
 
 | Prize | Reward |
 |---|---|
-| Best CROPS (India) | Devcon 8 ticket + $2,000 USDC |
+| Best Indian Use Case | Devcon 8 ticket + $2,000 USDC |
 | Censorship Resistance (Global) | Devcon 8 ticket + $750 USDC |
 | Open Source (Global) | Devcon 8 ticket + $750 USDC |
 | Privacy (Global) | Devcon 8 ticket + $750 USDC |
@@ -85,8 +85,8 @@ Every submission must pass these gates to be scored:
 - **Payment:** the USDC prize is paid within 14 days after the winner completes KYC.
 - **Visa:** if you plan to use the ticket and need a visa for India, the Organizer can provide an invitation letter on request.
 - **One ticket per winning team.** Travel, visa and accommodation are the winner's responsibility.
-- **One prize per team.** You can compete in more than one pillar, but your team wins at most one prize. If you win Best CROPS (India), you cannot also win a Global prize. If you win one Global prize, you cannot win another. Allocation is described in the [rubric](docs/scoring-rubric.md#3-ranking-and-prizes).
-- **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team or no valid entry in a pillar), it goes to the next-highest-ranked project overall that has not won.
+- **One prize per team.** You can enter more than one track, but your team wins at most one prize. If you win Best Indian Use Case, you cannot also win a Global prize. If you win one Global prize, you cannot win another. Allocation is described in the [rubric](docs/scoring-rubric.md#3-ranking-and-prizes).
+- **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team or no valid entry in a track), it goes to the next-highest-ranked project overall that has not won.
 - **Currency:** USDC, sent to an EVM wallet address.
 - **KYC is required to claim a prize, not to enter.**
 - Prizes are non-transferable, except as described in Section 6.
@@ -98,13 +98,13 @@ Every submission must pass these gates to be scored:
 2. Each winning team accepts the prize by replying to the notification email within **48 hours** of it being sent. A replacement winner gets its own 48-hour window from its own notification.
 3. If a team does not accept, declines, or cannot complete KYC, the prize passes to the next-ranked eligible team:
    - a Global prize goes to the next team in that pillar;
-   - Best CROPS (India) goes to the next-ranked team with at least one member of Indian nationality;
+   - Best Indian Use Case goes to the next team in that track with at least one member of Indian nationality;
    - if no eligible team remains, Section 5 (minimum score) applies.
 4. Replacements are offered until 28 October 2026. After that, a prize that is declined stays unawarded.
 
 ## 7. KYC
 
-Winners complete KYC before payout. The Organizer shares the process with each winning team after the announcement. For Best CROPS (India), KYC is done with the team member of Indian nationality.
+Winners complete KYC before payout. The Organizer shares the process with each winning team after the announcement. For Best Indian Use Case, KYC is done with the team member of Indian nationality.
 
 ## 8. Judging
 

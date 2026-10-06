@@ -6,7 +6,7 @@ Every submission is judged by the Arkiv team in two steps: **gates**, then **sco
 
 A submission that fails any gate is not scored.
 
-- [ ] **It works.** A public deployment judges can open without asking for access. This applies to every pillar: a library, CLI or dataset ships with a deployed app or product that shows how it is used and the value it adds.
+- [ ] **It works.** A public deployment judges can open without asking for access. This applies to every track: a library, CLI or dataset ships with a deployed app or product that shows how it is used and the value it adds.
 - [ ] **It can be reproduced.** The steps and the exact query in the submission produce what the submission says.
 - [ ] **Public repo under the MIT licence.**
 - [ ] **`/arkiv/schema.md`** in the repo: entity types, attributes, expiration per type, the queries the app runs.
@@ -14,7 +14,7 @@ A submission that fails any gate is not scored.
 - [ ] **`/arkiv/friction.md`** in the repo.
 - [ ] **Demo video**, 3 minutes or less.
 - [ ] **Every required question** on the Devfolio project form answered (see the [checklist](submission-checklist.md)).
-- [ ] **At least one CROPS pillar** chosen as a track on Devfolio.
+- [ ] **At least one track** chosen on Devfolio: a CROPS pillar or Best Indian Use Case.
 - [ ] **Built between 9 and 18 October 2026.** The Arkiv integration and the core logic are new. Pre-existing work is disclosed with the baseline commit SHA and a list of reused components.
 - [ ] **Evidence that survives expiry.** If Arkiv entities expire before judging, judges verify their creation transactions on the explorer and review the demo video.
 
@@ -24,7 +24,7 @@ A submission that fails any gate is not scored.
 
 Four criteria, **25 points each**. Each is scored 0 to 5 and weighted: `points = 25 × (score / 5)`.
 
-A project can enter more than one pillar. "Why this pillar?" is scored once for each pillar it enters; the other three criteria are scored once. A project's **pillar total** is the sum of its points for "Why this pillar?" in that pillar and for the other three criteria. Its **overall total** is its highest pillar total.
+A project can enter more than one track. The first criterion depends on the track: "Why this pillar?" for a CROPS pillar, "Why India?" for Best Indian Use Case. It is scored once for each track the project enters; the other three criteria are scored once. A project's **track total** is the sum of its points for that first criterion in that track and for the other three criteria.
 
 | Score | Meaning |
 |---|---|
@@ -35,7 +35,7 @@ A project can enter more than one pillar. "Why this pillar?" is scored once for 
 | 4 | Good: thoughtful and clearly reasoned |
 | 5 | Excellent: specific enough that another builder could follow it |
 
-### Why this pillar? · 25
+### Why this pillar? · 25 (CROPS tracks)
 
 The problem side. Who is harmed today if this data is censored, shut down, leaked or forged, and does the project actually help them?
 
@@ -49,6 +49,14 @@ What each pillar asks for:
 - **Open Source:** another team can build on the dataset or tool without asking permission, from a documented data contract.
 - **Privacy:** what is visible on the explorer exposes no personal data; few attributes, encrypted or hashed payloads, expiry the user controls.
 - **Security:** the app shows or filters Arkiv entities by their on-chain creator (`$creator`), not by a field anyone can write.
+
+### Why India? · 25 (Best Indian Use Case)
+
+Replaces "Why this pillar?" for this track. It does not need to follow a CROPS pillar. Who in India uses it, and what real problem does it solve for them?
+
+| 1 | 3 | 5 |
+|---|---|---|
+| India is named, but no user or problem is identified | A real group of users in India with a real problem the app addresses | Names who in India uses it and what changes for them, and the app works for them today |
 
 ### Why Arkiv? · 25
 
@@ -90,8 +98,8 @@ The solution side. What breaks on a database an operator controls, on IPFS, a su
 - Each total is the average of the judges' totals, unrounded.
 - **Minimum score:** 50/100 to win.
 - **One prize per team.** A team that has already won is skipped, and the prize goes to the next eligible team.
-- **Best CROPS (India)** is allocated first: the project with the highest overall total from a team with at least one member of Indian nationality. That team cannot also win a Global prize.
-- **Global prizes (one per pillar):** each pillar ranks the projects that entered it by their pillar total. If one team tops more than one pillar, it receives the pillar where its pillar total is highest (ties: in the order Censorship Resistance, Open Source, Privacy, Security), and the other pillars go to their next team.
+- **Best Indian Use Case** is allocated first: the highest track total in that track, from a team with at least one member of Indian nationality. That team cannot also win a Global prize.
+- **Global prizes (one per pillar):** each pillar ranks the projects that entered it by their track total. If one team tops more than one pillar, it receives the pillar where its track total is highest (ties: in the order Censorship Resistance, Open Source, Privacy, Security), and the other pillars go to their next team.
 - **No eligible project for a prize:** it goes to the next-highest-ranked project overall that has not won.
 - **Ties:** higher "Why Arkiv?" wins, then higher "How you use Arkiv", then the earlier submission timestamp.
 - Judges with a personal or professional connection to a team disclose it and recuse themselves from that entry.

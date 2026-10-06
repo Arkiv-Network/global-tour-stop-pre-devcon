@@ -9,19 +9,19 @@ Build on [Arkiv](https://arkiv.network), the Web3 database, around one theme: **
 
 Ten days, fully online, open to builders everywhere. Five winners get a Devcon 8 ticket and USDC.
 
-Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a devtool, a CLI, an indexer, a dataset, an agent or a browser extension.
+Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a devtool, a CLI, an indexer, a dataset, an agent or a browser extension. Four CROPS tracks are open to everyone, and the Best Indian Use Case track rewards a real-world application that people in India can use.
 
 ## Prizes
 
 | Prize | Reward |
 |---|---|
-| **Best CROPS (India)** | Devcon 8 ticket + **$2,000 USDC**. For teams with at least one member of Indian nationality |
+| **Best Indian Use Case** | Devcon 8 ticket + **$2,000 USDC**. A real-world application built on Arkiv that people in India can use. Your team needs at least one member of Indian nationality |
 | **Censorship Resistance (Global)** | Devcon 8 ticket + **$750 USDC** |
 | **Open Source (Global)** | Devcon 8 ticket + **$750 USDC** |
 | **Privacy (Global)** | Devcon 8 ticket + **$750 USDC** |
 | **Security (Global)** | Devcon 8 ticket + **$750 USDC** |
 
-- **One prize per team.** You can compete in more than one pillar, but your team wins at most one prize. If you win Best CROPS (India), you cannot also win a Global prize. If you win one Global prize, you cannot win another.
+- **One prize per team.** You can enter more than one track, but your team wins at most one prize. If you win Best Indian Use Case, you cannot also win a Global prize. If you win one Global prize, you cannot win another.
 - **Attending Devcon is not required to win.** Each winning team gets one ticket to use if it wants to attend.
 - Winners complete KYC before payout. Details in [RULES.md](RULES.md).
 
@@ -37,11 +37,12 @@ Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a
 
 ## How it is judged
 
-Pick **one or more CROPS pillars** (they are tracks on Devfolio). All projects are scored on the same four criteria, 25 points each; "Why this pillar?" is scored for each pillar you enter:
+Pick **one or more tracks** on Devfolio: the four CROPS pillars and Best Indian Use Case. All projects are scored on four criteria, 25 points each. The first one depends on the track and is scored for each track you enter:
 
 | Criterion | The question |
 |---|---|
-| **Why this pillar?** | Who is harmed today if this data is censored, shut down, leaked or forged? |
+| **Why this pillar?** (CROPS tracks) | Who is harmed today if this data is censored, shut down, leaked or forged? |
+| **Why India?** (Best Indian Use Case) | Who in India uses it, and what real problem does it solve for them? |
 | **Why Arkiv?** | What would break on Postgres, IPFS, a subgraph or your own API, and what did you keep off Arkiv on purpose? |
 | **How you use Arkiv** | How and why you use each Arkiv feature. Not how many you use. |
 | **Friction report** | Specific, reproducible feedback on building with Arkiv |

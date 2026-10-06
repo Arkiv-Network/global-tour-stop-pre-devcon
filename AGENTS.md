@@ -4,7 +4,7 @@ Context for AI coding agents (Claude Code, Cursor, Copilot, Codex…) helping a 
 
 ## What this repo is
 
-The official rules and resources for a 10-day online build on Arkiv, the Web3 database (9 to 18 October 2026), themed on CROPS: censorship resistant, open source, private, secure. This repo is the canonical source; if another surface disagrees, this repo applies.
+The official rules and resources for a 10-day online build on Arkiv, the Web3 database (9 to 18 October 2026), themed on CROPS (censorship resistant, open source, private, secure), plus a Best Indian Use Case track for real-world applications people in India can use. This repo is the canonical source; if another surface disagrees, this repo applies.
 
 | Question | File |
 |---|---|
@@ -15,8 +15,8 @@ The official rules and resources for a 10-day online build on Arkiv, the Web3 da
 
 ## Key facts
 
-- One or more CROPS pillars per project (tracks on Devfolio); one prize per team. Same rubric for all: Why this pillar? 25 (scored per pillar entered) · Why Arkiv? 25 · How you use Arkiv 25 · Friction report 25.
-- Gates before scoring: working deployment, reproducible, public MIT repo, `/arkiv/schema.md`, `/arkiv/friction.md`, at least one CROPS pillar as a Devfolio track, every required question on the Devfolio project form, the wallet addresses that create your Arkiv entities on Tiramisu, demo video ≤ 3 min, built 9 to 18 October.
+- One or more tracks per project: the four CROPS pillars and Best Indian Use Case; one prize per team. Same rubric for all: Why this pillar? or Why India? 25 (scored per track entered) · Why Arkiv? 25 · How you use Arkiv 25 · Friction report 25.
+- Gates before scoring: working deployment, reproducible, public MIT repo, `/arkiv/schema.md`, `/arkiv/friction.md`, at least one track on Devfolio, every required question on the Devfolio project form, the wallet addresses that create your Arkiv entities on Tiramisu, demo video ≤ 3 min, built 9 to 18 October.
 - Attending Devcon is not required to win. Winners get a Devcon 8 ticket; USDC is paid after KYC.
 - Network: Tiramisu testnet, chain ID `7738577`, RPC `https://rpc.tiramisu.db-chain.testnet.arkiv.network`, WebSocket `wss://rpc.tiramisu.db-chain.testnet.arkiv.network`.
 - SDK: `@arkiv-network/sdk` 0.8.x. Docs: https://docs.arkiv.network
@@ -40,7 +40,7 @@ Call the expiry primitive "Entity Expiration" and its renewal "Lifetime Extensio
 
 ## What to ask the builder before coding
 
-1. Which CROPS pillar, and who is harmed today without this project?
+1. Which track? For a CROPS pillar, who is harmed today without this project? For Best Indian Use Case, who in India uses it?
 2. Why does it need Arkiv instead of Postgres, IPFS, a subgraph or an API, and what stays off Arkiv?
 3. A funded test wallet on Tiramisu (never paste its private key into chat or code; use an env var).
 4. The product's entity types and the 2 or 3 questions the app must answer, so the schema is designed before the UI.
