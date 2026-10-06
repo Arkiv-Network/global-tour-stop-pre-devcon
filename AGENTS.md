@@ -1,4 +1,4 @@
-# AGENTS.md: Arkiv × Devfolio Builder Challenge, India Edition
+# AGENTS.md: Arkiv: Global Tour Stop
 
 Context for AI coding agents (Claude Code, Cursor, Copilot, Codex…) helping a builder in this challenge.
 

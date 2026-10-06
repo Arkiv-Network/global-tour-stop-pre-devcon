@@ -1,4 +1,4 @@
-# Arkiv × Devfolio: Builder Challenge, India Edition
+# Arkiv: Global Tour Stop 🌍
 
 **Global Tour Stop · Road to Devcon Mumbai · 9 to 18 October 2026 · online**
 
@@ -15,7 +15,7 @@ Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a
 
 | Prize | Reward |
 |---|---|
-| **Best Indian Use Case** | Devcon 8 ticket + **$2,000 USDC**. A real-world application built on Arkiv that people in India can use. Your team needs at least one member of Indian nationality |
+| **Best Indian Use Case** | Devcon 8 ticket + **$2,000 USDC**. A real-world application built on Arkiv that people in India can use. It does not need to follow a CROPS pillar. Your team needs at least one member of Indian nationality |
 | **Censorship Resistance (Global)** | Devcon 8 ticket + **$750 USDC** |
 | **Open Source (Global)** | Devcon 8 ticket + **$750 USDC** |
 | **Privacy (Global)** | Devcon 8 ticket + **$750 USDC** |

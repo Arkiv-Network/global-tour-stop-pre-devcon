@@ -10,7 +10,7 @@ Devfolio asks for your name, email and GitHub, plus:
 - Country of residence (statistics only, it does not affect eligibility)
 - Does any team member hold Indian nationality? (to compete for Best Indian Use Case you need at least one; KYC for that prize is done with that person)
 - Builder communities you are part of
-- Background (Web2, Web3, both) and whether you had used Arkiv before
+- Background (Web2, Web3, Databases, Other) and whether you had used Arkiv before
 - How you heard about the challenge
 - Optional: whether you plan to attend Devcon 8 in Mumbai (not required to win)
 - **USDC payout wallet:** an EVM address. It can differ from the wallets your app uses.

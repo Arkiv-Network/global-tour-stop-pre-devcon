@@ -5,7 +5,7 @@
 
 ## 1. Overview
 
-The Arkiv × Devfolio Builder Challenge, India Edition ("Challenge") is organized by Golem Factory GmbH, doing business as "Arkiv Network" ("Organizer"), and distributed through Devfolio. By submitting an entry, participants agree to these rules in full.
+Arkiv: Global Tour Stop ("Challenge"), a builder challenge, is organized by Golem Factory GmbH, doing business as "Arkiv Network" ("Organizer"), and distributed through Devfolio. By submitting an entry, participants agree to these rules in full.
 
 This repository is the only canonical source of the rules. If any other surface (Devfolio page, posts, the event MCP) differs, this file applies.
 
@@ -82,8 +82,7 @@ Every submission must pass these gates to be scored:
 ### Prize conditions
 
 - **Attending Devcon is not required to win.** Each winning team gets one Devcon 8 ticket (Mumbai, 3 to 6 November 2026) to use if it wants to attend.
-- **Payment:** the USDC prize is paid within 14 days after the winner completes KYC.
-- **Visa:** if you plan to use the ticket and need a visa for India, the Organizer can provide an invitation letter on request.
+- **Payment:** prizes are paid within 14 days after the winner completes KYC.
 - **One ticket per winning team.** Travel, visa and accommodation are the winner's responsibility.
 - **One prize per team.** You can enter more than one track, but your team wins at most one prize. If you win Best Indian Use Case, you cannot also win a Global prize. If you win one Global prize, you cannot win another. Allocation is described in the [rubric](docs/scoring-rubric.md#3-ranking-and-prizes).
 - **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team or no valid entry in a track), it goes to the next-highest-ranked project overall that has not won.
