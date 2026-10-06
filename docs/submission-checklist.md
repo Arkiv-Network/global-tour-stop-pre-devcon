@@ -38,33 +38,34 @@ Then our questions. Answers marked Private are hidden from the public project pa
 
 **Judging answers**
 
-3. Why this pillar? * Write a short, labelled answer for each pillar you entered. Who is harmed today if this data is censored, shut down, leaked or forged?
-4. Why Arkiv? * Why not Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
-5. How do you use Arkiv? * For each feature you use, say how and why, and link to the relevant code.
+3. Which pillars are you entering? * The same pillars you picked as tracks.
+4. Why this pillar? * Write a short, labelled answer for each pillar you entered. Who is harmed today if this data is censored, shut down, leaked or forged?
+5. Why Arkiv? * Why not Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
+6. How do you use Arkiv? * For each feature you use, say how and why, and link to the relevant code.
 
 **Verification on Tiramisu**
 
-6. Wallet addresses that create your Arkiv entities, and the role of each *
-7. Entity keys and creation transaction hashes, or explorer links *
-8. Link to `/arkiv/schema.md` *
-9. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
-10. Pre-existing work * Anything made before the challenge that you reused, such as an earlier hackathon project, a fork or a template. Give the baseline commit SHA and what you reused, or write None.
+7. Wallet addresses that create your Arkiv entities, and the role of each *
+8. Entity keys and creation transaction hashes, or explorer links *
+9. Link to `/arkiv/schema.md` *
+10. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
+11. Pre-existing work * Anything made before the challenge that you reused, such as an earlier hackathon project, a fork or a template. Give the baseline commit SHA and what you reused, or write None.
 
 **Feedback** (form answers are Private)
 
-11. Link to `/arkiv/friction.md` *
-12. Arkiv surfaces you used * (TypeScript SDK, direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Other)
-13. If you selected Other, name it. Otherwise leave blank.
-14. How long after you started did you write your first Arkiv entity? *
-15. Which LLMs did you use? Write None if you did not use any. *
-16. What is the one thing we should improve first? *
-17. Are you open to a 20-minute feedback call with the Arkiv team? *
+12. Link to `/arkiv/friction.md` *
+13. Arkiv surfaces you used * (TypeScript SDK, direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Other)
+14. If you selected Other, name it. Otherwise leave blank.
+15. How long after you started did you write your first Arkiv entity? *
+16. Which LLMs did you use? Write None if you did not use any. *
+17. What is the one thing we should improve first? *
+18. Are you open to a 20-minute feedback call with the Arkiv team? *
 
-**Confirmations**
+**Confirmations** (Private)
 
-18. This is our team's work, built between 9 and 18 October. Any pre-existing or third-party work is disclosed. *
-19. Our repo is public under the MIT licence and every link is accessible to judges. *
-20. Optional: we plan to attend Devcon 8 in Mumbai and can showcase the project at the Arkiv booth. Not required to win.
+19. This is our team's work, built between 9 and 18 October. Any pre-existing or third-party work is disclosed. *
+20. Our repo is public under the MIT licence and every link is accessible to judges. *
+21. Optional: we plan to attend Devcon 8 in Mumbai and can showcase the project at the Arkiv booth. Not required to win.
 
 Never paste private keys, seed phrases, access key secrets or RPC URLs with credentials into any answer.
 
