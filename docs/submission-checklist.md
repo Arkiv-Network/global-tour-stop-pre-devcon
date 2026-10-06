@@ -1,60 +1,73 @@
 # Submission checklist
 
-You submit on Devfolio. Besides the usual project fields, the form asks for the following. Prepare them before the deadline.
+Everything happens on Devfolio, in two moments: when you **register** and when you **submit** your project. Questions marked * are required.
 
-## In your repo
+## 1. When you register (each person)
+
+Devfolio asks for your name, email and GitHub, plus:
+
+- Telegram handle (we use it to reach you during the challenge)
+- Country of residence (statistics only, it does not affect eligibility)
+- Does any team member hold Indian nationality? (to compete for Best CROPS (India) you need at least one; KYC for that prize is done with that person)
+- Builder communities you are part of
+- Background (Web2, Web3, both) and whether you had used Arkiv before
+- How you heard about the challenge
+- Optional: whether you plan to attend Devcon 8 in Mumbai (not required to win)
+- **USDC payout wallet:** an EVM address. It can differ from the wallets your app uses.
+- Acknowledgement that winners complete KYC before payout
+- Consent to Arkiv and Devfolio using your contact details for this challenge
+
+## 2. When you submit (once per team)
+
+### In your repo
 
 - [ ] Public, MIT licence, setup instructions in the README
 - [ ] `/arkiv/schema.md`: entity types, attributes, expiration per type, the queries your app runs
 - [ ] `/arkiv/friction.md`: for each Arkiv surface you used, expected vs actual, versions and steps to reproduce
 
-## About you
+### On the Devfolio project form
 
-- Telegram handle (we use it to reach you during the challenge)
-- Country of residence (statistics only, it does not affect eligibility)
-- Does any team member hold Indian nationality? (to compete for Best Indian Team you need at least one; KYC for that prize is done with this person)
-- Builder communities you are part of
-- Background (Web2, Web3, both) and whether you had used Arkiv before
-- How you heard about the challenge
+The standard fields: project name, tagline, description, technologies, your repo, a demo video of 3 minutes or less, and **tracks**: pick every CROPS pillar you compete in (Censorship Resistance, Open Source, Privacy, Security).
 
-## Prize requirements
+Then our questions. Answers marked Private are hidden from the public project page; only the Arkiv team and judges see them. Files in your public repo, including `/arkiv/friction.md`, stay public.
 
-- **Devcon attendance (required to receive a prize):** if you win, will at least one team member attend Devcon 8 in Mumbai and demo at the Arkiv booth on 3–4 November? Prizes are paid only after the demo. If a winner cannot attend, the prize passes to the next-ranked team that can.
-- **USDC payout wallet:** an EVM address. It can differ from the wallets your app uses.
-- Acknowledgement that winners complete KYC before payout.
+**Project**
 
-## Your project
+1. Live app URL *
+2. Does any team member hold Indian nationality? * (Private)
 
-- CROPS pillar (one)
-- Live app URL (libraries, CLIs and datasets too: a deployed app or product that shows how it is used)
-- **Why [pillar]?** Who is harmed today if this data is censored, shut down, leaked or forged?
-- **Why Arkiv?** Why not Postgres, IPFS, a subgraph or your own API? What would break, and what did you keep off Arkiv on purpose?
-- **How do you use Arkiv?** For each feature, how and why, with a link to the line of code.
-- Demo video, 3 minutes or less
+**Judging answers**
 
-## Verify your Arkiv integration (Tiramisu)
+3. Why this pillar? * Write a short, labelled answer for each pillar you entered. Who is harmed today if this data is censored, shut down, leaked or forged?
+4. Why Arkiv? * Why not Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
+5. How do you use Arkiv? * For each feature you use, say how and why, and link to the relevant code.
 
-Never include private keys, seed phrases, access keys or RPC URLs with credentials.
+**Verification on Tiramisu**
 
-- Wallets that create your entities, and the role of each (for verification, not payout)
-- Entity keys and creation transaction hashes, or explorer links
-- Link to `/arkiv/schema.md`
-- How judges reproduce your Arkiv usage: steps and the exact query to run
-- Pre-existing work, if any: the baseline commit SHA and the components you reused
+6. Wallet addresses that create your Arkiv entities, and the role of each *
+7. Entity keys and creation transaction hashes, or explorer links *
+8. Link to `/arkiv/schema.md` *
+9. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
+10. Pre-existing work * Anything made before the challenge that you reused, such as an earlier hackathon project, a fork or a template. Give the baseline commit SHA and what you reused, or write None.
 
-## Your feedback
+**Feedback** (form answers are Private)
 
-- Link to `/arkiv/friction.md`
-- Arkiv surfaces you used
-- How long it took to write your first entity
-- LLMs you used, and whether you used the Arkiv MCP or skills
-- Optional: the one thing we should improve first, whether you will keep building, whether you are open to a 20-minute feedback call
+11. Link to `/arkiv/friction.md` *
+12. Arkiv surfaces you used * (TypeScript SDK, direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Other)
+13. If you selected Other, name it. Otherwise leave blank.
+14. How long after you started did you write your first Arkiv entity? *
+15. Which LLMs did you use? Write None if you did not use any. *
+16. What is the one thing we should improve first? *
+17. Are you open to a 20-minute feedback call with the Arkiv team? *
 
-## Confirmations
+**Confirmations**
 
-- This is our team's work, built between 9 and 18 October; pre-existing or third-party work is disclosed.
-- The repo is public under the MIT licence and every link is accessible to judges.
-- We consent to Arkiv and Devfolio using our contact details for this challenge.
-- Optional: list us in the public showcase (project name, one-liner, pillar). Declining does not affect judging.
+18. This is our team's work, built between 9 and 18 October. Any pre-existing or third-party work is disclosed. *
+19. Our repo is public under the MIT licence and every link is accessible to judges. *
+20. Optional: we plan to attend Devcon 8 in Mumbai and can showcase the project at the Arkiv booth. Not required to win.
+
+Never paste private keys, seed phrases, access key secrets or RPC URLs with credentials into any answer.
+
+## At the deadline
 
 At the deadline we record your repo's commit SHA, and that is what we judge. A force-push that rewrites history after the deadline disqualifies the entry. Keep your deployment up until winners are announced on 23 October. You can edit your Devfolio submission until it closes.

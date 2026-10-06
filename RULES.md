@@ -16,11 +16,11 @@ This repository is the only canonical source of the rules. If any other surface 
 - No purchase necessary.
 - Employees of Arkiv / Golem Network and their immediate families are not eligible for prizes.
 - Teams have up to 5 members. The roster is frozen when submissions close: members cannot be added or removed afterwards.
-- Multiple submissions are allowed only if they are distinct projects. One prize per individual or team across all entries.
+- Multiple submissions are allowed only if they are distinct projects. A team wins at most one prize across all its entries.
 
-### Best Indian Team
+### Best CROPS (India)
 
-To compete for Best Indian Team, your team must include **at least one person of Indian nationality**. Teams declare it on the submission form, and KYC for this prize is done with that person.
+Same theme and rubric as the Global prizes. Open worldwide otherwise. To compete for it, your team must include **at least one person of Indian nationality**. Teams declare it when they register and again in the Devfolio submission form, and KYC for this prize is done with that person.
 
 ## 3. Challenge period
 
@@ -28,16 +28,16 @@ To compete for Best Indian Team, your team must include **at least one person of
 |---|---|
 | 9 October 2026 | Opening, live at Network School Astana; submissions open |
 | 18 October 2026, 23:59 IST (18:29 UTC) | Submissions close |
-| 19–22 October 2026 | Judging |
+| 19 to 22 October 2026 | Judging |
 | 23 October 2026 | Winners announced |
-| 25 October 2026 | Deadline for winners to confirm Devcon attendance |
-| 3–4 November 2026 | Winner demos at the Arkiv booth, Devcon 8, Mumbai |
+| 25 October 2026 | Deadline for winners to accept their prize |
+| 3 to 6 November 2026 | Devcon 8, Mumbai |
 
 Late submissions are not accepted. At the deadline we record each repo's commit SHA and judge that commit; rewriting history after the deadline disqualifies the entry. Deployments stay up until 23 October. The Organizer may adjust these dates; changes are announced on Devfolio and the Arkiv Discord.
 
 ## 4. Submission requirements
 
-Submissions are made on Devfolio, the only valid method. The full list of fields is in [docs/submission-checklist.md](docs/submission-checklist.md).
+Submissions are made on Devfolio, the only valid method. What is asked at registration and at submission is listed in [docs/submission-checklist.md](docs/submission-checklist.md).
 
 Every submission must pass these gates to be scored:
 
@@ -47,10 +47,11 @@ Every submission must pass these gates to be scored:
 | Reproducible | Steps and the exact query that produce what the submission claims |
 | Public repo | MIT licence, setup instructions in the README |
 | `/arkiv/schema.md` | Entity types, attributes, expiration per type, queries |
-| On-chain evidence | Entity keys and creation transaction hashes on Tiramisu |
+| On-chain evidence | Arkiv entity keys and creation transaction hashes on Tiramisu, or explorer links to them |
 | `/arkiv/friction.md` | Feedback on building with Arkiv |
 | Demo video | 3 minutes or less |
-| One CROPS pillar | Censorship Resistance, Open Source, Privacy or Security |
+| One or more CROPS pillars | Censorship Resistance, Open Source, Privacy, Security. Chosen as tracks on Devfolio |
+| Submission questions | Every required question on the Devfolio project form answered (listed in the [checklist](docs/submission-checklist.md)) |
 
 ### Valid submissions
 
@@ -70,21 +71,22 @@ Every submission must pass these gates to be scored:
 
 | Prize | Reward |
 |---|---|
-| Best Indian Team | Devcon 8 ticket + $2,000 USDC |
-| Censorship Resistance | Devcon 8 ticket + $750 USDC |
-| Open Source | Devcon 8 ticket + $750 USDC |
-| Privacy | Devcon 8 ticket + $750 USDC |
-| Security | Devcon 8 ticket + $750 USDC |
+| Best CROPS (India) | Devcon 8 ticket + $2,000 USDC |
+| Censorship Resistance (Global) | Devcon 8 ticket + $750 USDC |
+| Open Source (Global) | Devcon 8 ticket + $750 USDC |
+| Privacy (Global) | Devcon 8 ticket + $750 USDC |
+| Security (Global) | Devcon 8 ticket + $750 USDC |
 
 **Total: $5,000 USDC and five Devcon 8 tickets.**
 
 ### Prize conditions
 
-- **Attending Devcon is required.** At least one member of each winning team demos the project at the Arkiv booth at Devcon 8 (Mumbai, 3–4 November 2026). The USDC prize is paid **after the demo**, within 14 days.
-- **Travel time is short.** Winners are announced 11 days before the booth demos. If you need a visa for India, check the requirements before you enter; the Organizer can provide an invitation letter on request.
+- **Attending Devcon is not required to win.** Each winning team gets one Devcon 8 ticket (Mumbai, 3 to 6 November 2026) to use if it wants to attend.
+- **Payment:** the USDC prize is paid within 14 days after the winner completes KYC.
+- **Visa:** if you plan to use the ticket and need a visa for India, the Organizer can provide an invitation letter on request.
 - **One ticket per winning team.** Travel, visa and accommodation are the winner's responsibility.
-- **One prize per team and per individual.** Prizes are allocated in this order: Best Indian Team first, then each pillar. A team (or a person already in a winning team) that has won is skipped, and the prize goes to the next-ranked eligible team.
-- **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team, no valid entry in a pillar, or nobody left who can attend), it goes to the next-highest-ranked project overall that has not won and can attend.
+- **One prize per team.** You can compete in more than one pillar, but your team wins at most one prize. If you win Best CROPS (India), you cannot also win a Global prize. If you win one Global prize, you cannot win another. Allocation is described in the [rubric](docs/scoring-rubric.md#3-ranking-and-prizes).
+- **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team or no valid entry in a pillar), it goes to the next-highest-ranked project overall that has not won.
 - **Currency:** USDC, sent to an EVM wallet address.
 - **KYC is required to claim a prize, not to enter.**
 - Prizes are non-transferable, except as described in Section 6.
@@ -93,17 +95,16 @@ Every submission must pass these gates to be scored:
 ## 6. Confirmation and runner-up policy
 
 1. Winners are notified by email and Telegram on 23 October.
-2. Each winning team confirms by replying to the notification email within **48 hours** of it being sent that it will attend Devcon and demo at the booth. A replacement winner gets its own 48-hour window from its own notification.
-3. If a team does not confirm, declines, or cannot complete KYC, the prize passes to the next-ranked eligible team:
-   - a pillar prize goes to the next team in that pillar;
-   - Best Indian Team goes to the next-ranked team with at least one member of Indian nationality;
+2. Each winning team accepts the prize by replying to the notification email within **48 hours** of it being sent. A replacement winner gets its own 48-hour window from its own notification.
+3. If a team does not accept, declines, or cannot complete KYC, the prize passes to the next-ranked eligible team:
+   - a Global prize goes to the next team in that pillar;
+   - Best CROPS (India) goes to the next-ranked team with at least one member of Indian nationality;
    - if no eligible team remains, Section 5 (minimum score) applies.
 4. Replacements are offered until 28 October 2026. After that, a prize that is declined stays unawarded.
-5. If a winning team confirms but does not demo at Devcon, the USDC prize is not paid.
 
 ## 7. KYC
 
-Winners complete KYC before Devcon. The Organizer shares the process with each winning team after the announcement. For Best Indian Team, KYC is done with the team member of Indian nationality.
+Winners complete KYC before payout. The Organizer shares the process with each winning team after the announcement. For Best CROPS (India), KYC is done with the team member of Indian nationality.
 
 ## 8. Judging
 
@@ -113,7 +114,7 @@ The Arkiv team judges every submission against the published [scoring rubric](do
 
 - Participants keep full ownership of their submissions, which must be published under the MIT licence.
 - By entering, participants grant the Organizer a non-exclusive, royalty-free, worldwide licence to showcase the submission, reference it as an example of Arkiv usage, and fork the repository for educational purposes.
-- The public showcase (project name, one-liner, pillar) lists only teams that opt in on the form. Declining does not affect judging.
+- Teams that plan to attend Devcon 8 can say so in the submission form, so we can showcase their project at the Arkiv booth. It does not affect judging.
 
 ## 10. Code of conduct
 
@@ -128,8 +129,8 @@ Treat everyone with respect. No harassment, discrimination, sabotage of other te
 
 ## 12. Privacy
 
-- Personal data collected on the submission form is used only to run the Challenge.
-- With the participant's consent on the form, contact details are shared between Arkiv and Devfolio for this Challenge.
+- Personal data collected at registration and submission is used only to run the Challenge.
+- With the participant's consent at registration, contact details are shared between Arkiv and Devfolio for this Challenge.
 - Participants are not added to marketing lists without explicit consent.
 
 ## 13. Governing law

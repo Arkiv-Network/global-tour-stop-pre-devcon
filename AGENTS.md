@@ -1,10 +1,10 @@
-# AGENTS.md — Arkiv × Devfolio Builder Challenge, India Edition
+# AGENTS.md: Arkiv × Devfolio Builder Challenge, India Edition
 
 Context for AI coding agents (Claude Code, Cursor, Copilot, Codex…) helping a builder in this challenge.
 
 ## What this repo is
 
-The official rules and resources for a 10-day online build on Arkiv, the Web3 database (9–18 October 2026), themed on CROPS: censorship resistant, open source, private, secure. This repo is the canonical source; if another surface disagrees, this repo applies.
+The official rules and resources for a 10-day online build on Arkiv, the Web3 database (9 to 18 October 2026), themed on CROPS: censorship resistant, open source, private, secure. This repo is the canonical source; if another surface disagrees, this repo applies.
 
 | Question | File |
 |---|---|
@@ -15,9 +15,9 @@ The official rules and resources for a 10-day online build on Arkiv, the Web3 da
 
 ## Key facts
 
-- One CROPS pillar per project. Same rubric for all: Why this pillar? 25 · Why Arkiv? 25 · How you use Arkiv 25 · Friction report 25.
-- Gates before scoring: working deployment, reproducible, public MIT repo, `/arkiv/schema.md`, `/arkiv/friction.md`, entity keys + tx hashes on Tiramisu, demo video ≤ 3 min, built 9–18 October.
-- Prizes require attending Devcon 8 (Mumbai) and demoing at the Arkiv booth on 3–4 November; payout comes after the demo.
+- One or more CROPS pillars per project (tracks on Devfolio); one prize per team. Same rubric for all: Why this pillar? 25 (scored per pillar entered) · Why Arkiv? 25 · How you use Arkiv 25 · Friction report 25.
+- Gates before scoring: working deployment, reproducible, public MIT repo, `/arkiv/schema.md`, `/arkiv/friction.md`, at least one CROPS pillar as a Devfolio track, every required question on the Devfolio project form, Arkiv entity keys + creation tx hashes on Tiramisu, demo video ≤ 3 min, built 9 to 18 October.
+- Attending Devcon is not required to win. Winners get a Devcon 8 ticket; USDC is paid after KYC.
 - Network: Tiramisu testnet, chain ID `7738577`, RPC `https://rpc.tiramisu.db-chain.testnet.arkiv.network`, WebSocket `wss://rpc.tiramisu.db-chain.testnet.arkiv.network`.
 - SDK: `@arkiv-network/sdk` 0.8.x. Docs: https://docs.arkiv.network
 
@@ -31,18 +31,18 @@ Do not reinvent these; check the installed package when unsure.
 - **Everything expires.** Set an expiry per entity type. Lifetime Extension (`extendEntity`) **sets** a new expiry; it reverts if the new one is not later.
 - **Trust comes from `$creator`** (immutable). `$owner` is mutable and controls writes.
 - **Live updates:** `watchEntityEvents` opens a real socket only with a WebSocket transport and no `fromBlock`; over HTTP it silently polls.
-- All entities are publicly readable. Privacy means encrypting or hashing the payload, never a private toggle.
-- Never put private keys, secrets or personal data in an entity.
+- All Arkiv entities are publicly readable. Privacy means encrypting or hashing the payload, never a private toggle.
+- Never put private keys, secrets or real personal data (plaintext or hashed) in an Arkiv entity. Use synthetic data.
 
 ## Vocabulary
 
-Call the expiry primitive "Entity Expiration" and its renewal "Lifetime Extension". Describe Arkiv as "the Web3 database".
+Call the expiry primitive "Entity Expiration" and its renewal "Lifetime Extension". Describe Arkiv as "the Web3 database" and its data items as "Arkiv entities". Never say TTL.
 
 ## What to ask the builder before coding
 
 1. Which CROPS pillar, and who is harmed today without this project?
-2. Why does it need Arkiv instead of Postgres, IPFS or an API, and what stays off Arkiv?
+2. Why does it need Arkiv instead of Postgres, IPFS, a subgraph or an API, and what stays off Arkiv?
 3. A funded test wallet on Tiramisu (never paste its private key into chat or code; use an env var).
-4. The product's entity types and the 2–3 questions the app must answer, so the schema is designed before the UI.
+4. The product's entity types and the 2 or 3 questions the app must answer, so the schema is designed before the UI.
 
-Write `/arkiv/schema.md` and keep `/arkiv/friction.md` updated while building: both are required.
+Write `/arkiv/schema.md` and keep `/arkiv/friction.md` updated while building: both are required. Before the deadline, help the builder draft answers to the Devfolio form questions listed in `docs/submission-checklist.md`.
