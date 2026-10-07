@@ -27,45 +27,28 @@ Devfolio asks for your name, email and GitHub, plus:
 
 ### On the Devfolio project form
 
-The standard fields: project name, tagline, description, technologies, your repo, a demo video of 3 minutes or less, and **tracks**: pick every track you compete in, a CROPS pillar (Censorship Resistance, Open Source, Privacy, Security) or Best Indian Use Case.
+The standard fields: project name, tagline, project media, project links (your repo and a demo video of 3 minutes or less), builders, **The problem it solves** \* and **Challenges I ran into** \*, and **tracks**: pick every track you compete in, a CROPS pillar (Censorship Resistance, Open Source, Privacy, Security) or Best Indian Use Case.
 
-Then our questions. Your answers are private: only the Arkiv team and judges see them. Files in your repo, including `/arkiv/schema.md` and `/arkiv/friction.md`, are public.
+Then our questions. Your answers are private: only organizers and judges see them. Files in your repo, including `/arkiv/schema.md` and `/arkiv/friction.md`, are public.
 
-**Project**
-
-1. Live app URL *
-2. Does any team member hold Indian nationality? *
-
-**Judging answers** (each scored criterion is 25% of the total)
-
-3. Which tracks are you entering? * The same tracks you picked on Devfolio.
-4. Why this pillar? (25%) * For CROPS tracks. Who is harmed today if this data is censored, shut down, leaked or forged? Answer for each pillar you entered.
-5. Why India? (25%) * For Best Indian Use Case. Who in India uses it, and what real problem does it solve for them?
-6. Why Arkiv? (25%) * What would break on Postgres, IPFS, a subgraph or your own API? What did you keep off Arkiv on purpose?
-7. How do you use Arkiv? (25%) * For each Arkiv feature you use: how, why, and a link to the code.
-8. Friction report: link to `/arkiv/friction.md` (GitHub URL) (25%) * What you expected, what happened, versions and steps to reproduce.
-
-**Verification on Tiramisu**
-
-9. Wallet addresses that create your Arkiv entities, and the role of each * Judges find your entities and their creation transactions from these addresses.
-10. Link to `/arkiv/schema.md` (GitHub URL) *
-11. How can judges reproduce your Arkiv usage? * The steps and the exact query to run.
-12. Pre-existing work you reused (or None) * Anything made before the challenge, such as an earlier hackathon project, a fork or a template, with its baseline commit SHA.
-
-**Feedback**
-
-13. Arkiv surfaces you used * (TypeScript SDK, direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Arkiv Plugin, Other)
-14. If you selected Other, name it
-15. How long after you started did you write your first Arkiv entity? * (2h or less, 2h to 24h, 1+ day)
-16. Which LLMs did you use? (or None) *
-17. What is the one thing we should improve first? *
-18. Open to a 20-minute feedback call with the Arkiv team? *
-
-**Confirmations**
-
-19. This is our team's work, built between 9 and 18 October. Any pre-existing or third-party work is disclosed. *
-20. Our repo is public under the MIT licence and every link is accessible to judges. *
-21. We plan to attend Devcon 8 in Mumbai (optional, not required to win)
+1. **Live app URL** \* Where judges can try your project right now.
+2. **Does any team member hold Indian nationality?** \*
+3. **Why Arkiv?** \* What would break if you used Postgres, IPFS, a subgraph or your own API instead? Why did you choose Arkiv, and which advantages do you get only from using it?
+4. **How do you use Arkiv?** \* For each Arkiv feature you use, tell us how and why you use it, with a link to the code.
+5. **Friction report: link to `/arkiv/friction.md`** \* A GitHub link to the file. For each issue, cover what you expected, what actually happened, the versions you used, and steps to reproduce.
+6. **Wallet addresses that create your Arkiv entities** \* List each address and the role it plays in your app.
+7. **Link to `/arkiv/schema.md`** \* A GitHub link to the file in your repo.
+8. **How can judges reproduce your Arkiv usage?** \* Step-by-step instructions judges can follow to see how your project uses Arkiv.
+9. **Pre-existing work you reused** \* Anything you made before 9 October and reused here, like starter code, templates or parts of past projects. Write "None" if you built everything during the hackathon.
+10. **Arkiv surfaces you used** \* TypeScript SDK, Direct JSON-RPC, WebSocket events, Docs, Hub, Faucet, Access keys, Block Explorer, Data Explorer, Arkiv MCP, Arkiv skills, Arkiv Plugin, Other.
+11. If you selected Other, name it
+12. **How long after you started did you write your first Arkiv entity?** \* 2 hours or less · 2 to 24 hours · More than a day
+13. **Which LLMs did you use?** \* Write "None" if you didn't use any.
+14. **What is the one thing Arkiv should improve first?** \*
+15. **Open to a 20-minute feedback call with the Arkiv team?** \*
+16. **This is our team's work, built between 9 and 18 October. Any pre-existing or third-party work is disclosed.** \*
+17. **Our repo is public under the MIT licence, and every link is accessible to judges.** \*
+18. I plan to attend Devcon 8 in Mumbai (optional, not required to win)
 
 Never paste private keys, seed phrases, access key secrets or RPC URLs with credentials into any answer.
 

@@ -4,7 +4,7 @@ Context for AI coding agents (Claude Code, Cursor, Copilot, Codex…) helping a 
 
 ## What this repo is
 
-The official rules and resources for a 10-day online build on Arkiv, the Web3 database (9 to 18 October 2026), themed on CROPS (censorship resistant, open source, private, secure), plus a Best Indian Use Case track for real-world applications people in India can use. This repo is the canonical source; if another surface disagrees, this repo applies.
+The official rules and resources for a 10-day online build on Arkiv, the Web3 database (9 to 18 October 2026), themed on CROPS (censorship resistant, open source, private, secure), plus a Best Indian Use Case track for real-world applications people in India can use. The Devfolio page (https://arkiv.devfolio.co/overview) is the official source; this repo has the full detail and follows it.
 
 | Question | File |
 |---|---|

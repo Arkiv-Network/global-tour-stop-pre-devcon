@@ -7,7 +7,7 @@
 
 Arkiv: Global Tour Stop ("Challenge"), a builder challenge, is organized by Golem Factory GmbH, doing business as "Arkiv Network" ("Organizer"), and distributed through Devfolio. By submitting an entry, participants agree to these rules in full.
 
-This repository is the only canonical source of the rules. If any other surface (Devfolio page, posts, the event MCP) differs, this file applies.
+The Devfolio page ([arkiv.devfolio.co](https://arkiv.devfolio.co/overview)) is the official source. This repository holds the full rules, rubric and submission checklist and follows it; if they ever differ, the Devfolio page applies.
 
 ## 2. Eligibility
 
@@ -32,7 +32,7 @@ All times are London time (BST, UTC+1).
 | 9 October 2026, 12:00 | Opening, live at Network School Astana; submissions open |
 | 18 October 2026, 23:59 (22:59 UTC) | Submissions and registration close |
 | 19 to 22 October 2026 | Judging |
-| 23 October 2026 | Winners announced |
+| 23 October 2026, 18:00 | Winners announced |
 | 25 October 2026 | Deadline for winners to accept their prize |
 | 3 to 6 November 2026 | Devcon 8, Mumbai |
 
@@ -88,7 +88,7 @@ Every submission must pass these gates to be scored:
 - **Payment:** prizes are paid within 14 days after the winner completes KYC.
 - **One ticket per winning team.** Travel, visa and accommodation are the winner's responsibility.
 - **One prize per team.** You can enter more than one track, but your team wins at most one prize. If you win Best Indian Use Case, you cannot also win a Global prize. If you win one Global prize, you cannot win another. Allocation is described in the [rubric](docs/scoring-rubric.md#3-ranking-and-prizes).
-- **Minimum score.** A project needs at least 50/100 to win. If a prize has no eligible project (no qualifying team or no valid entry in a track), it goes to the next-highest-ranked project overall that has not won.
+- **Minimum score.** A project needs at least 50/100 to win. If a Global prize has no eligible project, it goes to the highest-ranked project that has not won, ranked by its highest track total. Best Indian Use Case only goes to a team with at least one member of Indian nationality; if no such team qualifies, it is not awarded.
 - **Currency:** USDC, sent to an EVM wallet address.
 - **KYC is required to claim a prize, not to enter.**
 - Prizes are non-transferable, except as described in Section 6.

@@ -100,7 +100,8 @@ The solution side. What breaks on a database an operator controls, on IPFS, a su
 - **One prize per team.** A team that has already won is skipped, and the prize goes to the next eligible team.
 - **Best Indian Use Case** is allocated first: the highest track total in that track, from a team with at least one member of Indian nationality. That team cannot also win a Global prize.
 - **Global prizes (one per pillar):** each pillar ranks the projects that entered it by their track total. If one team tops more than one pillar, it receives the pillar where its track total is highest (ties: in the order Censorship Resistance, Open Source, Privacy, Security), and the other pillars go to their next team.
-- **No eligible project for a prize:** it goes to the next-highest-ranked project overall that has not won.
+- **No eligible project for a Global prize:** it goes to the highest-ranked project that has not won, ranked by its highest track total.
+- **Best Indian Use Case** only goes to a team with at least one member of Indian nationality. If no such team reaches the minimum score, it is not awarded.
 - **Ties:** higher "Why Arkiv?" wins, then higher "How you use Arkiv", then the earlier submission timestamp.
 - Judges with a personal or professional connection to a team disclose it and recuse themselves from that entry.
 - Judges' decisions are final.

@@ -32,7 +32,7 @@ Build anything useful and usable for the ecosystem: a dApp, a library, an SDK, a
 | 7 October | Registration opens on Devfolio |
 | 9 October, 12:00 London time | Opening, live at Network School Astana, during the Network State Conference |
 | 18 October, 23:59 London time (22:59 UTC) | Submissions close |
-| 23 October | Winners announced |
+| 23 October, 18:00 | Winners announced |
 | 25 October | Deadline for winners to accept (48 hours from the notification email) |
 | 3 to 6 November | Devcon 8, Mumbai |
 
