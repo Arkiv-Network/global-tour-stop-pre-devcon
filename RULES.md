@@ -1,13 +1,13 @@
 # Official Rules & Terms
 
 > [!NOTE]
-> **Draft.** Frozen when the challenge opens on 9 October 2026. After that, only dated clarifications are added. Weights, gates, eligibility and prizes do not change after the opening.
+> **Frozen since 9 October 2026.** Only dated clarifications may be added. Weights, gates, eligibility and prizes do not change after the opening.
 
 ## 1. Overview
 
 Arkiv: Global Tour Stop ("Challenge"), a builder challenge, is organized by Golem Factory GmbH, doing business as "Arkiv Network" ("Organizer"), and distributed through Devfolio. By submitting an entry, participants agree to these rules in full.
 
-The Devfolio page ([arkiv.devfolio.co](https://arkiv.devfolio.co/overview)) is the official source. This repository holds the full rules, rubric and submission checklist and follows it; if they ever differ, the Devfolio page applies.
+This repository is the only canonical source of the rules. It holds the full rules, rubric and submission checklist. If the Devfolio page ([arkiv.devfolio.co](https://arkiv.devfolio.co/overview)) differs, this repository applies.
 
 ## 2. Eligibility
 
