@@ -3,7 +3,7 @@
 **Global Tour Stop · Road to Devcon Mumbai · 9 to 18 October 2026 · online**
 
 > [!NOTE]
-> **Draft.** These rules are being finalised and will be frozen when the challenge opens on 9 October. Until then, details may change.
+> **Frozen since 9 October 2026.** Only dated clarifications may be added. Weights, gates, eligibility and prizes do not change after the opening.
 
 Build on [Arkiv](https://arkiv.network), the Web3 database, around one theme: **CROPS**, the Ethereum Foundation's mandate that Ethereum stay **c**ensorship resistant, **o**pen source, **p**rivate and **s**ecure.
 
